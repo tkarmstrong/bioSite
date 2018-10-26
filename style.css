@@ -113,6 +113,18 @@ main img {
 /* Hobbies Article
 -------------------------------------------------- */
 
+.row {
+    display: flex;
+}
+
+.column {
+    width: 50%;
+}
+
+.hobbies-article {
+    text-align: center;
+}
+
 .hobbies-article img {
     width: 300px;
 }
