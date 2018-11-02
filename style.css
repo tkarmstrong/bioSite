@@ -18,7 +18,7 @@ article {
     color: #303030;
     font-weight: 400;
     padding: 25px;
-    min-height: 300px;
+    min-height: 200px;
 }
 
 .article-header {
@@ -30,6 +30,24 @@ article {
     margin-top: 0;
 }
 
+.mb-0 {
+    margin-bottom: 0;
+}
+
+.row {
+    display: flex;
+}
+
+.column-2 {
+    width: 50%;
+    padding: 10px;
+}
+
+.column-3 {
+    width: 33.33%;
+    padding: 10px;
+}
+
 /* Header / Navigation
 -------------------------------------------------- */
 
@@ -38,9 +56,14 @@ header nav {
     display:inline-block;
  }
 
-header h1 { 
+header h1 a { 
     color: #fff;
+    text-decoration: none;
     margin-left: 10px; 
+}
+
+header h1 a:hover {
+    color: #667F6C;
 }
 
 nav { 
@@ -75,10 +98,10 @@ nav {
     padding: 14px 16px;
 }
 
-/* Main Image
+/* Hero/Main Image
 -------------------------------------------------- */
 
-main img {
+.hero-img {
     width: 800px;
     display: block;
     margin: auto;
@@ -112,14 +135,6 @@ main img {
 
 /* Hobbies Article
 -------------------------------------------------- */
-
-.row {
-    display: flex;
-}
-
-.column {
-    width: 50%;
-}
 
 .hobbies-article {
     text-align: center;
